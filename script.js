@@ -1,16 +1,18 @@
 let div = document.querySelector('#main');
 
 function createGrid() {
-let grid = document.createElement('div');
-div.appendChild(grid);
+    
+    let grid = document.createElement('div');
+    div.appendChild(grid);
 
-grid.className = "grid";
+    grid.className = "grid";
 
-grid.addEventListener('mouseover', (e) => {
-    e.target.style.backgroundColor = 'black';
-});
+    grid.addEventListener('mouseover', (e) => {
+        randomColor = Math.floor(Math.random()*16777215).toString(16);
+        e.target.style.backgroundColor = '#' + randomColor;
+    });
 
-return grid;
+    return grid;
 }
 
 
