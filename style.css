@@ -1,15 +1,45 @@
 .body {
-    background-color: gray;
+    background-color: rgb(46, 46, 46);
 }
 
 .container {
     display: flex;
+    /* border: solid 1px black; */
+}
+
+.btn {
+    display: flex;
     flex-direction: column;
     align-items: center;
+    margin: 75px 0px 0px; 
+    /* border: solid 1px black; */
+}
+
+button {
+    width: 230px;
+    height: 90px;
+    background-color: rgb(41, 141, 54);
+    margin-top: 50px;
+    font-size: 24px;
+    border-radius: 14px;
+    border: none;
+}
+
+button:hover {
+    background-color: rgb(25, 66, 53);
+    color:aliceblue;
+}
+
+p {
+    text-align: center;
+    margin: 0px 160px 0px;
+    color: white;
+    font-size: 32px;
+    font-weight: bolder;
 }
 
 #main {
-    margin: 75px auto;
+    margin-top: 75px;
     width:750px;
     height:750px;
     background-color: white;
@@ -22,8 +52,4 @@
 
 .grid {
     display: flex;
-}
-
-#etch:hover {
-    background-color: black;
 }
