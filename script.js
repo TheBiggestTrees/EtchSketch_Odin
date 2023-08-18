@@ -17,7 +17,7 @@ function createGrid(rows, lW) {
 function getSides() {
     let sides = +prompt("Type in a number to make the grid. Cannot be over 100");
 
-    if (sides < 100){
+    if (sides <= 100){
         for (i = sides; i >= 1; i--) {
 
             let rows = document.createElement('div');
