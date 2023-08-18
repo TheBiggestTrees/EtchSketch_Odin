@@ -9,20 +9,19 @@
 }
 
 #main {
-    display: flex;
-    flex-wrap: wrap;
     margin: 75px auto;
-    width:960px;
-    height:960px;
+    width:750px;
+    height:750px;
     background-color: white;
     overflow: hidden;
 }
 
+.rows {
+    display: flex;
+}
+
 .grid {
     display: flex;
-    flex: auto;
-    max-width:480px;
-    max-height: 480px;
 }
 
 #etch:hover {
