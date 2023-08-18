@@ -12,14 +12,17 @@
     display: flex;
     flex-wrap: wrap;
     margin: 75px auto;
+    width:960px;
+    height:960px;
     background-color: white;
     overflow: hidden;
 }
 
 .grid {
-    border: solid 2px black;
-    width: 20px;
-    height: 20px;
+    display: flex;
+    flex: auto;
+    max-width:480px;
+    max-height: 480px;
 }
 
 #etch:hover {
