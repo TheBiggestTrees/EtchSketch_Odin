@@ -12,7 +12,6 @@ function createGrid() {
         e.target.style.backgroundColor = '#' + randomColor;
     });
 
-    return grid;
 }
 
 function getSides() {
